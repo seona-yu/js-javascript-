@@ -44,8 +44,13 @@ const는 변수 재할당이 불가능하다.
 
 
 ### Array Methods (map, reduce, filter, slice, splice)
-
-
++ map: 배열의 각 원소별로 지정된 함수를 실행한 결과.
++ reduce: 배열의 각 값(좌에서 우)에 대해서 누산된 한 값으로 줄도록 함수를 적용.
++ filter: 지정된 함수의 결과를 true로 만드는 원소들로만 구성된 별도의 배열을 반환.
++ slice: 배열의 startindex부터 endindex까지를 새로운 배열 객체로 변환 가능.
++ splice: 배열의 특정위치에 요소를 추가하거나 삭제
++ push / pop: 배열 뒷부분에 값을 삽입 / 삭제
++ unshift / shift : 배열 앞부분에 값을 삽입 / 삭제
 
 ### Spread Operator (Array/Object Spread)
 
